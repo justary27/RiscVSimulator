@@ -1,5 +1,5 @@
 #include <iostream>
-#include<vector>
+#include <vector>
 #include <BaseInstruction.h>
 
 using std::copy, std::cout, std::string, std::vector;
@@ -21,11 +21,11 @@ public:
 
     void encode(vector<string> instruction)
     {
-        copy(instruction, instruction + 6, opcode);
-        copy(instruction + 7, instruction + 11, rd);
-        copy(instruction + 12, instruction + 14, func3);
-        copy(instruction + 15, instruction + 19, rs1);
-        copy(instruction + 20, instruction + 31, func7);
+        // copy(instruction, instruction + 6, opcode);
+        // copy(instruction + 7, instruction + 11, rd);
+        // copy(instruction + 12, instruction + 14, func3);
+        // copy(instruction + 15, instruction + 19, rs1);
+        // copy(instruction + 20, instruction + 31, func7);
     }
 
     void execute() {}

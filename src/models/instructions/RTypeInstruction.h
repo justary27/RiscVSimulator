@@ -20,11 +20,11 @@ public:
 
     void encode(string instruction)
     {
-        std::copy(instruction, instruction + 6, opcode);
-        std::copy(instruction + 7, instruction + 11, rd);
-        std::copy(instruction + 12, instruction + 14, func3);
-        std::copy(instruction + 15, instruction + 19, rs1);
-        std::copy(instruction + 20, instruction + 31, func7);
+        // std::copy(instruction, instruction + 6, opcode);
+        // std::copy(instruction + 7, instruction + 11, rd);
+        // std::copy(instruction + 12, instruction + 14, func3);
+        // std::copy(instruction + 15, instruction + 19, rs1);
+        // std::copy(instruction + 20, instruction + 31, func7);
     }
 
     void execute() {}
