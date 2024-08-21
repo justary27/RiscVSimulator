@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++"
+	BuildStamp="20240205-1612-Experimental"
+	Name="ragnarok"
+	Generator="ctest-3.27.4"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="ragnarok"
+	OSRelease="6.5.0-15-generic"
+	OSVersion="#15-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan  9 17:03:36 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="126"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="7789"
+	TotalPhysicalMemory="15673"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1300"
+	>
+	<Testing>
+		<StartDateTime>Feb 05 23:04 IST</StartDateTime>
+		<StartTestTime>1707154482</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 05 23:04 IST</EndDateTime>
+		<EndTestTime>1707154482</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

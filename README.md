@@ -1,1 +1,1 @@
-# CSN221
+# RiscVSimulator
