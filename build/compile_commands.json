@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/aryan/Desktop/github/RiscVSimulator/build",
-  "command": "/usr/bin/g++ -I/home/aryan/Desktop/github/RiscVSimulator/include -g -o CMakeFiles/RiscVSimulator.dir/src/main.cpp.o -c /home/aryan/Desktop/github/RiscVSimulator/src/main.cpp",
-  "file": "/home/aryan/Desktop/github/RiscVSimulator/src/main.cpp",
-  "output": "CMakeFiles/RiscVSimulator.dir/src/main.cpp.o"
-}
-]

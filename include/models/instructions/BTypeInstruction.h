@@ -1,23 +1,28 @@
 #ifndef B_TYPE_INSTRUCTION_H
 #define B_TYPE_INSTRUCTION_H
 
-#include "interface/BaseInstruction.h"
+#include <cstdint>
 
+#include "base/BaseInstruction.h"
+
+/// @brief The `BTypeInstruction` class that represents the
+/// B-type instruction in the Risc-V architecture.
 class BTypeInstruction : BaseInstruction {
-    uint32_t func3 : 3;
-    uint32_t rs1 : 5;
-    uint32_t rs2 : 5;
-    uint32_t imm2 : 7;
-    uint32_t imm : 12;
+    private:
+        uint32_t func3 : 3;
+        uint32_t rs1 : 5;
+        uint32_t rs2 : 5;
+        uint32_t imm2 : 7;
+        uint32_t imm : 12;
 
-   public:
-    BTypeInstruction();
-    // BTypeInstruction() {
-    //     // encode();
-    //     instructionType = InstructionType(bType);
-    // }
+        // Memory operating functions
 
-    void encode();
+        void encode();
+
+        void execute();
+
+        // Risc-V B instruction definitions
+
 };
 
 #endif

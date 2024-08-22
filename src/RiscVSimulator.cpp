@@ -17,6 +17,10 @@ void RiscVSimulator::simulateProgram(const std::string programPath) {
     std::string instruction;
 
     while (std::getline(inputFile, instruction)) {
-        // utils::splitString()
+        vector<string> x = utils::splitString(instruction);
+
+        for (auto i : x) {
+            std::cout << i << std::endl;
+        }
     }
 }

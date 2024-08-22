@@ -1,10 +1,7 @@
 #include <iostream>
-
 #include "RiscVSimulator.h"
 
 int main() {
-    std::cout << "Hello, from csn221!\n";
-
     // Intializing the simulator
     RiscVSimulator simulator = RiscVSimulator();
 

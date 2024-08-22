@@ -1,28 +1,15 @@
 #include "models/instructions/ITypeInstruction.h"
 
-#include <iostream>
-#include <vector>
+ITypeInstruction::ITypeInstruction() {}
 
-using std::copy, std::cout, std::string, std::vector;
+void ITypeInstruction::encode() {}
 
-class ITypeInstruction : BaseInstruction {
-   public:
-    ITypeInstruction(uint32_t instruction) {
-        instructionType = InstructionType(iType);
-    }
-    explicit ITypeInstruction(const vector<string> inputInstrunction) {
-        encode(inputInstrunction);
-        instructionType = InstructionType(iType);
-    }
+void ITypeInstruction::execute() {}
 
-    void encode(vector<string> instruction) {
-    }
+void ITypeInstruction::addi() {}
 
-    void print() {
-    }
+void ITypeInstruction::andi() {}
 
-    // Risc-V I instruction implementations
+void ITypeInstruction::ori() {}
 
-    /// @brief The add immediate risc-v I type instruction
-    void addi();
-};
+void ITypeInstruction::xori() {}

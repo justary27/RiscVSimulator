@@ -1,8 +1,5 @@
 #include "models/instructions/BTypeInstruction.h"
 
-void BTypeInstruction::encode(){};
+void BTypeInstruction::encode() {}
 
-BTypeInstruction::BTypeInstruction() {
-    // encode();
-    instructionType = InstructionType(bType);
-}
+void BTypeInstruction::execute() {}

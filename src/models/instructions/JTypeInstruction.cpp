@@ -1,14 +1,5 @@
 #include "models/instructions/JTypeInstruction.h"
 
-#include <iostream>
+void JTypeInstruction::encode() {}
 
-using std::copy, std::cout, std::string;
-
-class JTypeInstruction : BaseInstruction {
-   public:
-    JTypeInstruction() {
-        instructionType = InstructionType(jType);
-    }
-
-    void encode() {}
-};
+void JTypeInstruction::execute() {}

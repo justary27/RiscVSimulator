@@ -4,13 +4,13 @@
 #include <string>
 #include <vector>
 
-#include "interface/BaseInstruction.h"
+#include "base/BaseInstruction.h"
 
 class RiscVSimulator {
     std::vector<BaseInstruction> instructions;
 
    public:
-    static void simulateProgram(const std::string programPath);
+    void simulateProgram(const std::string programPath);
 };
 
 #endif

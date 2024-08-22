@@ -2,25 +2,24 @@
 #define J_TYPE_INSTRUCTION_H
 
 #include <cstdint>
-#include <iostream>
 
-#include "interface/BaseInstruction.h"
+#include "base/BaseInstruction.h"
 
-using std::copy, std::cout, std::string;
-
+/// @brief The `JTypeInstruction` class that represents the
+/// J-type instruction in the Risc-V architecture.
 class JTypeInstruction : BaseInstruction {
-    uint32_t rd : 5;
-    uint32_t imm4;
-    uint32_t imm3;
-    uint32_t imm2;
-    uint32_t imm;
+    private:
+        uint32_t rd : 5;
+        uint32_t imm4;
+        uint32_t imm3;
+        uint32_t imm2;
+        uint32_t imm;
 
-   public:
-    JTypeInstruction() {
-        instructionType = InstructionType(jType);
-    }
+        // Memory operating functions
 
-    void encode() {}
+        void encode();
+
+        void execute();
 };
 
 #endif

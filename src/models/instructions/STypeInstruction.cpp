@@ -1,12 +1,5 @@
 #include "models/instructions/STypeInstruction.h"
 
-#include <iostream>
+void STypeInstruction::encode() {}
 
-using std::copy, std::cout, std::string;
-
-class STypeInstruction : BaseInstruction {
-   public:
-    STypeInstruction() {
-        instructionType = InstructionType(sType);
-    }
-};
+void STypeInstruction::execute() {}
