@@ -6,12 +6,12 @@ int main() {
     RiscVSimulator simulator = RiscVSimulator();
 
     // // Simulating the Prime check program
-    // simulator.simulateProgram("commands/primeCommands.txt");
+    // simulator.simulateProgram("examples/primeCommands.txt");
 
     // Simulating the Factorial Calculating command
-    const std::string factorialProgram = "./commands/factorialCommands.txt";
+    const std::string factorialProgram = "examples/factorialCommands.txt";
     simulator.simulateProgram(factorialProgram);
 
     // // Simulating the Gcd & Lcm program
-    // simulator.simulateProgram("commands/gcdLcmCommands.txt");
+    // simulator.simulateProgram("examples/gcdLcmCommands.txt");
 }

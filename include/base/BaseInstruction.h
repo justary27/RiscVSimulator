@@ -18,7 +18,7 @@ class BaseInstruction {
     virtual void print() const = 0;
 
     // Virtual destructor for polymorphism
-    virtual ~BaseInstruction();
+    virtual ~BaseInstruction() = default;
 };
 
 #endif

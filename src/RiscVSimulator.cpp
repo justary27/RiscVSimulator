@@ -6,7 +6,7 @@
 #include "utils/utils.h"
 
 void RiscVSimulator::simulateProgram(const std::string programPath) {
-    std::cout << "Executing program:" << programPath << std::endl;
+    std::cout << "Executing program @ " << programPath << std::endl;
 
     std::ifstream inputFile(programPath);
 
@@ -20,7 +20,9 @@ void RiscVSimulator::simulateProgram(const std::string programPath) {
         vector<string> x = utils::splitString(instruction);
 
         for (auto i : x) {
-            std::cout << i << std::endl;
+            std::cout << i << " ";
         }
+
+        std::cout << std::endl;
     }
 }

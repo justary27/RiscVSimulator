@@ -13,7 +13,7 @@ include_directories(include)
 
 # Source files
 set(MAIN_CPP "${PROJECT_SOURCE_DIR}/main.cpp")
-file(GLOB SOURCES src/*.cpp)
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
 
 add_executable(RiscVSimulator ${MAIN_CPP} ${SRC_FILES})
 
