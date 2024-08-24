@@ -1,5 +1,5 @@
 #include "models/instructions/JTypeInstruction.h"
 
-void JTypeInstruction::encode() {}
+void JTypeInstruction::decode() {}
 
 void JTypeInstruction::execute() {}

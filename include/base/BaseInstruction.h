@@ -5,7 +5,7 @@
 
 class BaseInstruction {
     /// @brief Decodes the instruction
-    virtual void encode() = 0;
+    virtual void decode() = 0;
 
     /// @brief Executes the instruction
     virtual void execute() = 0;

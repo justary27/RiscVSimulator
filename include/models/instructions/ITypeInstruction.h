@@ -17,7 +17,7 @@ class ITypeInstruction : BaseInstruction {
 
         // Memory operating functions
 
-        void encode();
+        void decode();
 
         void execute();
 

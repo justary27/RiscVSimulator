@@ -2,7 +2,7 @@
 
 ITypeInstruction::ITypeInstruction() {}
 
-void ITypeInstruction::encode() {}
+void ITypeInstruction::decode() {}
 
 void ITypeInstruction::execute() {}
 
